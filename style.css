@@ -1,10 +1,24 @@
-header{
-    background-color:#464642;
+header {
+    background-color: #464642;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /* align-content: space-between; */
 }
 
-img{
+#mainlogo {
     padding: 1em 0;
 }
 
+#call {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 2em;
+}
+
+
+#socialmedia{
+    display: flex;
+    align-items: center;
+}
