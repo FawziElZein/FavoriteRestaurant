@@ -3,15 +3,16 @@ body {
     margin: 0;
 }
 
-header {
+#topheader {
     background-color: #464642;
     display: flex;
     justify-content: space-between;
 }
 
-#socialmediaimg{
+#socialmediaimg {
     padding: 0 2em 0;
 }
+
 #mainlogo {
     padding: 1em 0;
 }
@@ -29,23 +30,27 @@ header {
     align-items: center;
 }
 
-#searchmenu{
+#searchmenu {
     display: inline-block;
     padding: 2em;
 }
 
-#searchmenu form{
+#searchmenu form {
     display: flex;
     align-items: center;
 }
 
-#searchmenu form img{
+#searchmenu input::placeholder{
+    font-size: 1em;
+    color: #a8a8a8;
+}
+#searchmenu form img {
     width: 20px;
     height: auto;
     padding-right: 5px;
 }
 
-#searchmenu form input{
+#searchmenu form input {
     border: none;
     font-style: italic;
 }
@@ -64,4 +69,43 @@ menu li p {
     cursor: pointer;
     margin: 0;
     padding: 0.5em 0;
+}
+
+#miscellaneous,
+#myaccount {
+    display: flex;
+    align-items: center;
+
+}
+
+#mainheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 1em;
+    color: #787878;
+    font-size: small;
+}
+
+
+#mainheader img{
+    margin: 0 1em 0px 1.5em;
+    width: 25px;
+}
+
+
+
+#menudisplay {
+    flex-grow: 1;
+}
+
+main {
+    display: flex;
+
+}
+
+#shoppingcart {
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
 }
